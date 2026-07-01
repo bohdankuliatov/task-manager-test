@@ -1,0 +1,49 @@
+// ---------------------------------------------------------------------------
+// Design tokens — "Ledger" system
+// A calm, paper-and-ink workspace with one indigo accent for action and a
+// small status palette (amber / green / slate) that reads like ledger ink.
+// ---------------------------------------------------------------------------
+
+:root {
+  // Surfaces
+  --color-bg: #f6f6fb;
+  --color-surface: #ffffff;
+  --color-surface-raised: #ffffff;
+
+  // Ink
+  --color-ink: #1b1b2f;
+  --color-ink-soft: #46465c;
+  --color-muted: #7a7a92;
+  --color-border: #e4e4f0;
+  --color-border-strong: #cfcfe2;
+
+  // Accent
+  --color-primary: #4f46e5;
+  --color-primary-dark: #3730a3;
+  --color-primary-soft: #eeecfd;
+
+  // Status
+  --color-status-todo: #7a7a92;
+  --color-status-progress: #d97706;
+  --color-status-progress-bg: #fef3e2;
+  --color-status-done: #0f9d70;
+  --color-status-done-bg: #e4f7ef;
+  --color-status-archived: #94a3b8;
+
+  --color-danger: #dc2626;
+  --color-danger-bg: #fdecec;
+  --color-success-bg: #e4f7ef;
+
+  // Type
+  --font-display: 'Sora', 'Segoe UI', sans-serif;
+  --font-body: 'Inter', 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'SFMono-Regular', monospace;
+
+  // Radius / shadow / spacing
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --shadow-sm: 0 1px 2px rgba(27, 27, 47, 0.06);
+  --shadow-md: 0 8px 24px rgba(27, 27, 47, 0.1);
+  --shadow-lg: 0 20px 48px rgba(27, 27, 47, 0.18);
+}
