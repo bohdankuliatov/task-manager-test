@@ -6,8 +6,8 @@
 
 ## 🔗 Розгорнута версія
 
-> Додайте посилання після деплою, наприклад:
-> `https://ledger-tasks.vercel.app`
+> Link:
+> `https://task-manager-test-mauve.vercel.app/`
 
 ## 🚀 Локальний запуск
 
