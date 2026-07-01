@@ -88,7 +88,7 @@ function onDragEnd(): void {
             <td><span class="ledger-id">#{{ String(task.id).padStart(4, '0') }}</span></td>
             <td>{{ task.title }}</td>
             <td>{{ task.assignee ?? '—' }}</td>
-            <td><span class="chip" :class="`chip--${task.status}`">{{ statusLabels[task.status] }}</span></td>
+            <td><span class="chip" :class="`chip--${task.status}`">{{ statusLabels[task.status as keyof typeof statusLabels] }}</span></td>
             <td>{{ formatDate(task.dueDate) }}</td>
             <td class="ttable__handle" title="Перетягніть для зміни порядку">⠿</td>
             <td class="ptable__actions">

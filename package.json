@@ -20,6 +20,7 @@
     "zod": "^3.24.1"
   },
   "devDependencies": {
+    "@types/node": "^26.1.0",
     "@vitejs/plugin-vue": "^5.2.1",
     "sass": "^1.83.0",
     "typescript": "^5.7.2",
